@@ -1,6 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api';
 
-const bot = new TelegramBot("7075195371:AAFmSvWeK9E3jzRdnhLHk9h7Cy8HDyCBcoc", { polling: true });
+const bot = new TelegramBot("", { polling: true });
 
 export const sendTelegramOtp = async (phone, otp) => {
     // Code to send OTP via Telegram
