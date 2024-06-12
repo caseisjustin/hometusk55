@@ -23,6 +23,7 @@ bot.onText(/\/start/, (msg) => {
     });
 });
 
+
 bot.on('contact', async (msg) => {
     const phone = msg.contact.phone_number;
     // Code to verify phone number via API and respond to user
